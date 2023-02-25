@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Si-Stream: 1st Doctor Adventures - S2E1</title>
+<link rel="icon" href="../../../../../favicon.ico" type="image/png" sizes="16x16">
+<link rel="stylesheet" href="../../../../../tv/player.css">
+<script src="../../../../../tv/RedirectScripts/1.js"></script>
+<script src="/bluebox37/player.js"></script>
+</head>
+<body id="main">
+<audio autoplay id="SubjectAudio" onended="NextVideo()">
+  <source src="E1.mp3">
+  Your browser doesn't support < audio >..
+</audio>
+<img id="Artwork" src="../../../assets/1-adv-2.jpg">
+<div class="content">
+  <div id="controls">
+    <div id="buttonbar">
+      <p><center><a href="/bluebox37/"><img src="../../../../../tv/doctorwhomodern/2018.png" width="20%"></p></a></a>
+      <button id="restart" onclick="restart();"><img src="../../../../../tv/restart.png" width="100%"></button> 
+      <button id="rew" onclick="skip(-30)"><img src="../../../../../tv/rewind.png" width="100%"></button>
+      <button id="play" onclick="vidplay()"><img src="../../../../../tv/play.png" width="100%"></button>
+      <button id="fastFwd" onclick="skip(30)"><img src="../../../../../tv/fastforward.png" width="100%"></button>
+      </center>
+      <p><div class="progress" id="progress"></div></p>
+    </div>
+  </div>
+  <div id="Data">
+    <div class="hideButtons">
+      <button id="hide" onclick="hideControls()">Show/Hide Controls</button>
+    </div>
+    <div class="EpisodeData">
+      1st Doctor Adventures - S2E1
+    </div>
+  </div>
+</div>
+</body>
+<script src="../../../../../progress.js"></script>
+</html>
