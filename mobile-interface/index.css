@@ -1,0 +1,66 @@
+@font-face {
+  font-family: ConcertOne;
+  src: url(../Titles.ttf);
+}
+@font-face {
+  font-family: AbrilFatFace;
+  src: url(../Categories.ttf);
+}
+.cat {
+	font-family: AbrilFatFace;
+}
+body {
+  background-image: url('../assets/bg_m.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: ConcertOne;
+  font-size: 10;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: gray;
+}
+#episodeoptions {
+  overflow: auto;
+  width: 100%;
+  white-space: nowrap;
+  overflow-y: hidden;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+#movieoptions {
+  overflow: auto;
+  width: 100%;
+  white-space: nowrap;
+  overflow-y: hidden;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+#gameoptions {
+  overflow: auto;
+  height: 20%;
+  white-space: nowrap;
+  overflow-y: hidden;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+#logo {
+	margin: 5%;
+}
+img.rounded-corners {
+	border-radius: 15px;
+}
+.skipaudio {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.skipaudio:hover {
+  background-color: #4CAF50;
+  color: white;
+}
