@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Dalek;
+  src: url(DALEK.ttf);
+}
+body {
+  background-image: url('../assets/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Dalek;
+  font-size: 20;
+}
+#episodes {
+	height: 90%;
+	background-color:  rgba(0, 0, 0, 0.3);
+	overflow-y: auto;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: gray;
+}
